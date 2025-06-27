@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on alphaX - Proteomics Software Ecosystem</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on alphaX - Proteomics Software Ecosystem</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 09:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>http://localhost:1313/tags/community/</link>
+      <pubDate>Sat, 20 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+      <pubDate>Sat, 20 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>http://localhost:1313/tags/training/</link>
+      <pubDate>Sat, 20 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workshop</title>
+      <link>http://localhost:1313/tags/workshop/</link>
+      <pubDate>Sat, 20 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/workshop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alphadia</title>
+      <link>http://localhost:1313/tags/alphadia/</link>
+      <pubDate>Sun, 10 Mar 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/alphadia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>http://localhost:1313/tags/features/</link>
+      <pubDate>Sun, 10 Mar 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:1313/tags/performance/</link>
+      <pubDate>Sun, 10 Mar 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release</title>
+      <link>http://localhost:1313/tags/release/</link>
+      <pubDate>Sun, 10 Mar 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/release/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcement</title>
+      <link>http://localhost:1313/tags/announcement/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/announcement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecosystem</title>
+      <link>http://localhost:1313/tags/ecosystem/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ecosystem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Launch</title>
+      <link>http://localhost:1313/tags/launch/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/launch/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

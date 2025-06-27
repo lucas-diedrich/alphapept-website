@@ -1,0 +1,65 @@
+<div class="feature-card">
+    <div class="feature-icon">{{ .Get "icon" }}</div>
+    <div class="feature-content">
+        <h3><a href="{{ .Get " url" }}">{{ .Get "title" }}</a></h3>
+        <p>{{ .Get "description" }}</p>
+        <a href="{{ .Get " url" }}" class="feature-link">Learn More →</a>
+    </div>
+</div>
+
+<style>
+    .feature-card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        background: var(--entry);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        flex-shrink: 0;
+    }
+
+    .feature-content {
+        flex: 1;
+    }
+
+    .feature-content h3 {
+        margin: 0 0 0.5rem 0;
+        color: var(--primary);
+    }
+
+    .feature-content h3 a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .feature-content h3 a:hover {
+        text-decoration: underline;
+    }
+
+    .feature-content p {
+        margin: 0 0 1rem 0;
+        color: var(--secondary);
+    }
+
+    .feature-link {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .feature-link:hover {
+        text-decoration: underline;
+    }
+</style>

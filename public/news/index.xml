@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>News &amp; Updates on alphaX - Proteomics Software Ecosystem</title>
+    <link>http://localhost:1313/news/</link>
+    <description>Recent content in News &amp; Updates on alphaX - Proteomics Software Ecosystem</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 09:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>alphaX Workshop Series: Spring 2024 Training Schedule</title>
+      <link>http://localhost:1313/news/2024-04-20-workshop-series-spring-2024/</link>
+      <pubDate>Sat, 20 Apr 2024 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2024-04-20-workshop-series-spring-2024/</guid>
+      <description>Announcing our comprehensive workshop series covering all alphaX tools with hands-on training sessions</description>
+    </item>
+    <item>
+      <title>alphaDIA v2.1 Released: Enhanced DIA Analysis with GPU Acceleration</title>
+      <link>http://localhost:1313/news/2024-03-10-alphadia-v2.1-release/</link>
+      <pubDate>Sun, 10 Mar 2024 14:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2024-03-10-alphadia-v2.1-release/</guid>
+      <description>Major update to alphaDIA brings significant performance improvements and new features for data-independent acquisition analysis</description>
+    </item>
+    <item>
+      <title>alphaX Ecosystem Launch: Revolutionizing Proteomics Software</title>
+      <link>http://localhost:1313/news/2024-01-15-alphax-ecosystem-launch/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2024-01-15-alphax-ecosystem-launch/</guid>
+      <description>Announcing the official launch of the alphaX proteomics software ecosystem with three flagship tools</description>
+    </item>
+  </channel>
+</rss>
