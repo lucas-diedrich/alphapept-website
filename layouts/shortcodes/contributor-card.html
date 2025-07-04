@@ -1,70 +1,102 @@
+<!-- Contributor Card Template -->
 <div class="contributor-card">
-    {{ if .Get "image" }}
     <div class="contributor-image">
-        <img src="{{ .Get " image" }}" alt="{{ .Get " name" }}" />
+        <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}">
     </div>
-    {{ end }}
     <div class="contributor-info">
         <h3>{{ .Get "name" }}</h3>
-        <p class="contributor-affiliation">{{ .Get "affiliation" }}</p>
-        {{ if .Get "role" }}
-        <p class="contributor-role">{{ .Get "role" }}</p>
-        {{ end }}
-        {{ if .Get "github" }}
-        <div class="contributor-links">
-            <a href="{{ .Get " github" }}" target="_blank" rel="noopener">GitHub</a>
+        <div class="contributor-github">
+            <a href="https://github.com/{{ .Get "github" }}" target="_blank">
+                @{{ .Get "github" }}
+            </a>
         </div>
-        {{ end }}
+        <p class="contributor-focus">{{ .Get "focus" }}</p>
     </div>
 </div>
 
+
 <style>
-    .contributor-card {
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin: 1rem 0;
-        background: var(--entry);
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-    }
+.contributor-card {
+    /* border: 1px solid var(--border); */
+    border-radius: 12px;
+    padding: 2rem;
+    /* background: var(--entry); */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    height: 100%;
+    min-height: 280px;
+}
 
-    .contributor-image {
-        flex-shrink: 0;
-    }
+.contributor-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
 
-    .contributor-image img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
+.contributor-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--primary);
+    flex-shrink: 0;
+}
 
-    .contributor-info h3 {
-        margin: 0 0 0.25rem 0;
-        color: var(--primary);
-    }
+.contributor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
-    .contributor-affiliation {
-        margin: 0 0 0.25rem 0;
-        color: var(--secondary);
-        font-style: italic;
-    }
+.contributor-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
 
-    .contributor-role {
-        margin: 0 0 0.5rem 0;
-        color: var(--secondary);
-        font-size: 0.9rem;
-    }
+.contributor-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 
-    .contributor-links a {
-        color: var(--primary);
-        text-decoration: none;
-        font-size: 0.9rem;
-    }
+.contributor-github {
+    margin-bottom: 1rem;
+}
 
-    .contributor-links a:hover {
-        text-decoration: underline;
-    }
+.contributor-github a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    background: var(--code-bg);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.contributor-github a:hover {
+    background: var(--primary);
+    color: var(--theme);
+    text-decoration: none;
+}
+
+.contributor-focus {
+    color: var(--secondary);
+    font-style: italic;
+    line-height: 1.4;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
 </style>

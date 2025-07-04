@@ -1,30 +1,45 @@
 ---
-title: "alphaX - Proteomics Software Ecosystem"
-description: "A comprehensive ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
+title: "alpha-ρ"
+description: "An ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
 ---
 
-# Welcome to alphaX
+{{< ecosystem-card >}}
 
-The **alphaX ecosystem** represents a cutting-edge collection of scientific software tools designed for proteomics research and mass spectrometry data analysis. Our mission is to provide researchers with powerful, user-friendly, and open-source solutions that advance the field of proteomics.
+The **alpha-ρ ecosystem** (_pronounce: alpha-pro ecosystem_) represents an integrated ecoysystem of state-of-the-art scientific software tools designed for proteomics research and mass spectrometry data analysis. **Our mission** is to provide researchers with powerful, user-friendly, interoperable, and open-source software that advances the field of proteomics.
 
-## Key Software Packages
+---
 
-{{< feature-card title="alphaDIA" description="Advanced data-independent acquisition (DIA) analysis for proteomics experiments" url="/packages/alphadia/" icon="🔬" >}}
+## Key Packages
 
-{{< feature-card title="directLFQ" description="Label-free quantification tool for accurate protein abundance measurements" url="/packages/directlfq/" icon="📊" >}}
+{{< card-grid columns="2">}}
 
-{{< feature-card title="msProteo" description="Comprehensive mass spectrometry proteomics data processing pipeline" url="/packages/msprote/" icon="⚙️" >}}
+{{< feature-card title="alphaDIA" description="Search engine for data-independent acquisition (DIA) experiments" url="/packages/alphadia/" icon="images/placeholder.svg" alt="alphabase-icon" >}}
 
-## Why Choose alphaX?
+{{< feature-card title="directLFQ" description="Label-free quantification for accurate protein abundance measurements" url="/packages/directlfq/" icon="images/placeholder.svg" >}}
 
-- **🔬 Scientific Excellence**: Built by researchers, for researchers
-- **🌐 Open Source**: Transparent, collaborative, and freely available
-- **📈 Cutting-edge**: Incorporating the latest advances in proteomics
-- **🤝 Community-driven**: Supported by an active community of scientists
-- **📚 Well-documented**: Comprehensive documentation and tutorials
+{{< feature-card title="alphapeptdeep" description="Deep learning" url="/packages/directlfq/" icon="images/placeholder.svg" >}}
+
+
+{{< /card-grid >}}
+
+---
+
+## Mission and Values
+
+The **alpha-ρ** ecosystem is founded on the following principles:
+
+* **Openness**: Fully open-source, transparent, and developed in collaboration with the community.
+* **Scientific Rigor**: Committed to delivering robust, state-of-the-art tools for proteomics data analysis.
+* **Interoperability**: Designed to integrate seamlessly with the broader scientific software landscape.
+* **Community Focus**: Developed by researchers, for researchers—driven by shared knowledge and collaboration.
+
+---
 
 ## Getting Started
 
 Explore our [packages](/packages/) to find the right tools for your research, learn about our [mission](/mission/), or stay updated with the latest developments in our [news](/news/) section.
 
-Ready to contribute? Check out our [contributors](/contributors/) page to see how you can get involved in the alphaX ecosystem.
+---
+
+## Contribute 
+Ready to contribute? Check out our [contributors](/contributors/) page to see how you can get involved in the alpha-ρ ecosystem.

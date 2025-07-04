@@ -1,65 +1,84 @@
 <div class="feature-card">
-    <div class="feature-icon">{{ .Get "icon" }}</div>
+    <div class="feature-icon">
+        <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" | default "" }}">
+    </div>
     <div class="feature-content">
-        <h3><a href="{{ .Get " url" }}">{{ .Get "title" }}</a></h3>
+        <h3><a href="{{ .Get "url" }}">{{ .Get "title" }}</a></h3>
         <p>{{ .Get "description" }}</p>
-        <a href="{{ .Get " url" }}" class="feature-link">Learn More →</a>
+        <a href="{{ .Get "url" }}" class="feature-link">Learn More →</a>
     </div>
 </div>
 
 <style>
-    .feature-card {
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin: 1rem 0;
-        background: var(--entry);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        display: flex;
-        align-items: flex-start;
-        gap: 1rem;
-    }
+.feature-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: var(--entry);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 1rem;
+    text-align: center;   
+    height: 100%;
+    min-height: 300px; 
+}
 
-    .feature-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
 
-    .feature-icon {
-        font-size: 2rem;
-        flex-shrink: 0;
-    }
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-    .feature-content {
-        flex: 1;
-    }
+.feature-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;  
+    height: 100px;
+}
 
-    .feature-content h3 {
-        margin: 0 0 0.5rem 0;
-        color: var(--primary);
-    }
 
-    .feature-content h3 a {
-        text-decoration: none;
-        color: inherit;
-    }
+.feature-content {
+    color: var(--primary);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
-    .feature-content h3 a:hover {
-        text-decoration: underline;
-    }
+.feature-content h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+}
 
-    .feature-content p {
-        margin: 0 0 1rem 0;
-        color: var(--secondary);
-    }
+.feature-content h3 a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    .feature-link {
-        color: var(--primary);
-        text-decoration: none;
-        font-weight: 500;
-    }
+.feature-content h3 a:hover {
+    text-decoration: underline;
+}
 
-    .feature-link:hover {
-        text-decoration: underline;
-    }
+.feature-content p {
+    /* margin: 0 0 1rem 0; */
+    /* color: var(--secondary); */
+    flex: 1;
+    display: flex;
+}
+
+.feature-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
 </style>

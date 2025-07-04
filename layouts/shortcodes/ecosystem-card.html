@@ -1,0 +1,111 @@
+<div class="ecosystem-card">
+    <div class="ecosystem-logo">
+        <img src="/images/alpha-rho-minimal.png" alt="alpha-pro ecosystem logo">
+    </div>
+    <div class="ecosystem-info">
+        <h2>Open Proteomics Software</h2>
+        <!-- <p>Open Proteomics Software</p> -->
+        <div class="social-links">
+            <a href="https://github.com/MannLabs" target="_blank" rel="noopener" aria-label="GitHub">
+                <img src="/images/github-mark.svg">
+            </a>
+            <a href="https://bsky.app/profile/mannlab.bsky.social" , target="_blank" rel="noopener"
+                aria-label="Bluesky">
+                <img src="/images/bluesky.svg" alt="Bluesky icon" width="24" height="24" />
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .ecosystem-card {
+        /* background: linear-gradient(100deg, #4faab3 0%, #efefef 100%); */
+        background: linear-gradient(120deg, #96cdd2 20%, #efefef22 100%);
+        /* background: #4faab3; */
+        border-radius: 16px;
+        padding: 1rem;
+        padding-left: 2rem;
+        margin: 2rem 0;
+        /* color: white; */
+        color: #000000;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .ecosystem-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .ecosystem-logo {
+        flex-shrink: 0;
+        margin-right: 2rem;
+    }
+
+    .ecosystem-logo img {
+        /* width: 100px; */
+        height: 200px;
+        filter: brightness(0) invert(0);
+    }
+
+    .ecosystem-info h2 {
+        margin: 0 0 0.5rem 0;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .ecosystem-info p {
+        margin: 0 0 1rem 0;
+        opacity: 0.9;
+        font-size: 1.1rem;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 1rem;
+        margin-left: auto;
+    }
+
+    .social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.1);
+    }
+
+    .social-links svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .ecosystem-card {
+            flex-direction: column;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .ecosystem-logo img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .ecosystem-info h2 {
+            font-size: 1.5rem;
+        }
+    }
+</style>

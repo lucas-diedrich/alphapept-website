@@ -1,11 +1,11 @@
-baseURL = 'https://alphax.org'
+baseURL = 'https://alpha-ρ.org'
 languageCode = 'en-us'
-title = 'alphaX - Proteomics Software Ecosystem'
+title = 'alpha-ρ'
 theme = 'PaperMod'
 
 [params]
     description = "A comprehensive ecosystem of scientific software tools for proteomics research and mass spectrometry data analysis"
-    author = "alphaX Team"
+    author = "MannLabs"
     ShowReadingTime = true
     ShowShareButtons = true
     ShowPostNavLinks = true
@@ -22,13 +22,9 @@ theme = 'PaperMod'
     showtoc = false
     tocopen = false
 
-    [params.homeInfoParams]
-        Title = "Welcome to alphaX"
-        Content = "A comprehensive ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
-
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/alphax-team"
+        url = "https://github.com/MannLabs"
 
     [params.assets]
         favicon = "/favicon.ico"
@@ -53,19 +49,31 @@ theme = 'PaperMod'
         name = "Mission"
         url = "/mission/"
         weight = 30
-
+    
     [[menu.main]]
         identifier = "news"
         name = "News"
         url = "/news/"
         weight = 40
+    [[menu.main]]
+        identifier = "community"
+        name = "Community"
+        url = "/community/"
+        weight = 50
 
     [[menu.main]]
         identifier = "contributors"
         name = "Contributors"
         url = "/contributors/"
-        weight = 50
+        parent = "community"
+        weight = 10
 
+    [[menu.main]]
+        identifier = "guidelines"
+        name = "Guidelines"
+        url = "/guidelines/"
+        parent = "community"
+        weight = 20
 [markup]
     [markup.highlight]
         style = "github"

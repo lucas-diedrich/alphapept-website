@@ -1,10 +1,10 @@
-# alphaX Website
+# alpha-ρ Website
 
-This repository contains the source code for the alphaX proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+This repository contains the source code for the alpha-ρ proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
 ## 🌐 Live Site
 
-Visit the live website at: [https://alphax.org](https://alphax.org)
+Visit the live website at: [https://alpha-ρ.org](https://alpha-ρ.org)
 
 ## 📁 Site Structure
 
@@ -34,8 +34,8 @@ content/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alphax-team/alphax-website.git
-   cd alphax-website
+   git clone https://github.com/alpha-ρ-team/alpha-ρ-website.git
+   cd alpha-ρ-website
    ```
 
 2. **Initialize the theme submodule:**
@@ -175,9 +175,9 @@ This website is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 🆘 Support
 
-- **Issues**: [GitHub Issues](https://github.com/alphax-team/alphax-website/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/alphax-team/alphax-website/discussions)
-- **Email**: website@alphax.org
+- **Issues**: [GitHub Issues](https://github.com/alpha-ρ-team/alpha-ρ-website/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/alpha-ρ-team/alpha-ρ-website/discussions)
+- **Email**: website@alpha-ρ.org
 
 ## 🙏 Acknowledgments
 
@@ -188,4 +188,4 @@ This website is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-**Built with ❤️ by the alphaX community**
+**Built with ❤️ by the alpha-ρ community**

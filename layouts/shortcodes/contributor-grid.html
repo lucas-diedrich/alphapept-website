@@ -1,0 +1,33 @@
+
+<!-- Contributor Grid Template -->
+<div class="contributor-grid">
+    {{ .Inner }}
+</div>
+
+<style>
+
+.contributor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+    align-items: stretch;
+}
+
+@media (max-width: 900px) {
+    .contributor-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .contributor-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contributor-card {
+        padding: 1.5rem;
+        min-height: 240px;
+    }
+}
+</style>
