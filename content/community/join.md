@@ -3,7 +3,7 @@ title: "Join!"
 description: "Join a growing community committed to open, high-quality software for proteomics research."
 ---
 
-We welcome researchers and developers who want to contribute to the growth of the **alpha-ρ** ecosystem. Whether you're writing code, improving documentation, testing functionality, or running benchmarks, your contributions help us build better tools for proteomics.
+We welcome researchers and developers who want to contribute to the growth of the **alphapept** ecosystem. Whether you're writing code, improving documentation, testing functionality, or running benchmarks, your contributions help us build better tools for proteomics.
 
 ## How to Get Involved
 

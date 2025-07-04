@@ -1,8 +1,8 @@
-# alpha-ρ Website
+# alphapept Website
 
-**This is a work-in-progress, the preliminary name is alpha-ρ (_pronounced: alphapro_)**
+**This is a work-in-progress, the preliminary name is alphapept (_pronounced: alphapro_)**
 
-This repository contains the source code for the alpha-ρ proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+This repository contains the source code for the alphapept proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
 ## 🌐 Live Site
 
@@ -40,7 +40,7 @@ content/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alpha-ρ-team/alphaX-website.git
+   git clone https://github.com/alphapept-team/alphaX-website.git
    cd alphaX-website
    ```
 
@@ -196,4 +196,4 @@ This website is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-**Built with ❤️ by the alpha-ρ community**
+**Built with ❤️ by the alphapept community**

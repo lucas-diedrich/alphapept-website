@@ -1,6 +1,6 @@
 baseURL = 'https://alpha-pro.github.io'
 languageCode = 'en-us'
-title = 'alpha-ρ'
+title = 'alphapept'
 theme = 'PaperMod'
 
 [params]

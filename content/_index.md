@@ -1,11 +1,11 @@
 ---
-title: "alpha-ρ"
+title: "alphapept"
 description: "An ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
 ---
 
 {{< ecosystem-card >}}
 
-The **alpha-ρ ecosystem** (_pronounce: alpha-pro ecosystem_) is an integrated ecoysystem of state-of-the-art scientific software tools designed for proteomics research and mass spectrometry data analysis. **Our mission** is to provide researchers with powerful, user-friendly, interoperable, and open-source software that advances the field of proteomics.
+The **alphapept ecosystem** is an integrated ecoysystem of state-of-the-art scientific software tools designed for proteomics research and mass spectrometry data analysis. **Our mission** is to provide researchers with powerful, user-friendly, interoperable, and open-source software that advances the field of proteomics.
 
 ---
 
@@ -26,7 +26,7 @@ The **alpha-ρ ecosystem** (_pronounce: alpha-pro ecosystem_) is an integrated e
 
 ## Mission and Values
 
-The **alpha-ρ** ecosystem is founded on the following principles:
+The **alphapept** ecosystem is founded on the following principles:
 
 * **Openness**: Fully open-source, transparent, and developed in collaboration with the community.
 * **Scientific Rigor**: Committed to delivering robust, state-of-the-art tools for proteomics data analysis.
@@ -42,4 +42,4 @@ Explore our [packages](/packages/) to find the right tools for your research, le
 ---
 
 ## Contribute 
-Ready to contribute? Check out our [contributors](/contributors/) page to see how you can get involved in the alpha-ρ ecosystem.
+Ready to contribute? Check out our [contributors](/contributors/) page to see how you can get involved in the alphapept ecosystem.
