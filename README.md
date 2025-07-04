@@ -1,23 +1,29 @@
 # alpha-ρ Website
 
+**This is a work-in-progress, the preliminary name is alpha-ρ (_pronounced: alphapro_)**
+
 This repository contains the source code for the alpha-ρ proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
 ## 🌐 Live Site
 
-Visit the live website at: [https://alpha-ρ.org](https://alpha-ρ.org)
+_To be announced_
 
 ## 📁 Site Structure
 
 ```
 content/
 ├── _index.md              # Homepage
-├── packages/              # Software packages
-│   ├── _index.md         # Packages overview
-│   ├── alphadia.md       # alphaDIA documentation
-│   ├── directlfq.md      # directLFQ documentation
-│   └── msprote.md        # msProteo documentation
-├── mission.md            # Mission and goals
-├── contributors.md       # Contributors and team
+├── ecosystem/             # Ecosystem
+│   ├── _index.md          # Ecosystem overview
+│   ├── walkthrough.md     # (work in progress: More detailed description of individual components+interplay)
+|   └──packages/           # Ignored
+|        *.md              # More detailed description of individual packages
+├── mission.md             # Mission and goals
+├── community/             # Community, Contributors, Guidelines
+│   ├── _index.md          #
+│   ├── contributors.md    # Current and former contributors
+│   ├── guidelines.md      # Code of conduct, Diversity/Equity/Inclusion etc.
+|   └── join               # How to contribute
 └── news/                 # News and blog posts
     ├── _index.md         # News overview
     └── *.md              # Individual news posts
@@ -34,8 +40,8 @@ content/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alpha-ρ-team/alpha-ρ-website.git
-   cd alpha-ρ-website
+   git clone https://github.com/alpha-ρ-team/alphaX-website.git
+   cd alphaX-website
    ```
 
 2. **Initialize the theme submodule:**
@@ -54,7 +60,7 @@ content/
 
 - **Content**: Edit Markdown files in the `content/` directory
 - **Configuration**: Modify `hugo.toml` for site-wide settings
-- **Layouts**: Custom layouts are in `layouts/` directory
+- **Layouts**: Custom layouts are in `layouts/` directory. Specifically, you can generate templates for specific structures (e.g. the Package/Contributor Cards and grids in `/layouts/shortcodes` with templated HTML+CSS)
 - **Static files**: Images and other assets go in `static/` directory
 
 ## 📝 Adding Content
@@ -74,6 +80,19 @@ title: "New Package"
 description: "Description of the new package"
 date: 2024-01-15
 ---
+
+Ignore subsites (e.g. if you only want to be able to link to a specific site)
+
+```markdown
+---
+...
+_build:
+  list: false
+cascade:
+  _build:
+    list: false
+---
+```
 
 # New Package
 
@@ -104,7 +123,7 @@ Your news content here...
 
 ### Shortcodes
 
-The site includes custom shortcodes for consistent styling:
+The site includes custom shortcodes for consistent styling (see `/layouts/shortcodes`):
 
 - **Feature Card**: `{{< feature-card title="Title" description="Description" url="/link/" icon="🔬" >}}`
 - **Contributor Card**: `{{< contributor-card name="Name" affiliation="Affiliation" role="Role" github="URL" >}}`
@@ -134,14 +153,6 @@ hugo --minify
 
 The generated site will be in the `public/` directory.
 
-### Netlify
-
-For Netlify deployment:
-
-1. Connect your GitHub repository
-2. Set build command to `hugo --minify`
-3. Set publish directory to `public`
-4. Deploy!
 
 ## 🤝 Contributing
 
@@ -174,10 +185,7 @@ We welcome contributions to improve the website! Please:
 This website is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## 🆘 Support
-
-- **Issues**: [GitHub Issues](https://github.com/alpha-ρ-team/alpha-ρ-website/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/alpha-ρ-team/alpha-ρ-website/discussions)
-- **Email**: website@alpha-ρ.org
+- **Issues**: [GitHub Issues](https://github.com/MannLabs/alphaX-website/issues)
 
 ## 🙏 Acknowledgments
 
