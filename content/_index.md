@@ -5,7 +5,7 @@ description: "An ecosystem of cutting-edge proteomics software tools for mass sp
 
 {{< ecosystem-card >}}
 
-The **alpha-ρ ecosystem** (_pronounce: alpha-pro ecosystem_) represents an integrated ecoysystem of state-of-the-art scientific software tools designed for proteomics research and mass spectrometry data analysis. **Our mission** is to provide researchers with powerful, user-friendly, interoperable, and open-source software that advances the field of proteomics.
+The **alpha-ρ ecosystem** (_pronounce: alpha-pro ecosystem_) is an integrated ecoysystem of state-of-the-art scientific software tools designed for proteomics research and mass spectrometry data analysis. **Our mission** is to provide researchers with powerful, user-friendly, interoperable, and open-source software that advances the field of proteomics.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "alpha-ρ Ecosystem Launch"
+title: "Hello world!"
 date: 2025-07-01T10:00:00Z
 description: "Announcing the official launch of the alpha-ρ proteomics software ecosystem"
 tags: ["announcement", "launch", "ecosystem"]
