@@ -123,8 +123,6 @@ Your news content here...
 
 The site includes custom shortcodes for consistent styling (see `/layouts/shortcodes`):
 
-- **Feature Card**: `{{< feature-card title="Title" description="Description" url="/link/" icon="🔬" >}}`
-- **Contributor Card**: `{{< contributor-card name="Name" affiliation="Affiliation" role="Role" github="URL" >}}`
 
 ### Theme Configuration
 
