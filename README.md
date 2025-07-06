@@ -94,8 +94,6 @@ cascade:
   _build:
     list: false
 ---
-```
-
 Your content here...
 ```
 
