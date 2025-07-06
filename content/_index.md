@@ -1,6 +1,11 @@
 ---
 title: "alphapept"
 description: "An ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
+# _build:
+#   list: false
+# cascade:
+#   _build:
+#     list: false
 ---
 
 {{< ecosystem-card >}}
@@ -13,13 +18,41 @@ The **alphapept ecosystem** is an integrated ecoysystem of state-of-the-art scie
 
 {{< card-grid columns="2">}}
 
-{{< feature-card title="alphaDIA" description="Search engine for data-independent acquisition (DIA) experiments" url="/packages/alphadia/" icon="images/placeholder.svg" alt="alphabase-icon" >}}
+{{< feature-card 
+    title="alphaDIA" 
+    icon="/images/ecosystem/alphadia.png"
+    url="https://github.com/MannLabs/alphadia.git" 
+    description="Search engine for data-independent acquisition (DIA) experiments" 
+    github="https://github.com/MannLabs/alphadia.git" 
+    docs="https://alphadia.readthedocs.io/en/latest/"
+    doi="https://doi.org/10.1101/2024.05.28.596182"
+>}}
 
-{{< feature-card title="directLFQ" description="Label-free quantification for accurate protein abundance measurements" url="/packages/directlfq/" icon="images/placeholder.svg" >}}
+{{< feature-card 
+    title="alphapeptdeep" 
+    icon="/images/ecosystem/alphapeptdeep.png"
+    url="https://github.com/MannLabs/alphapeptdeep.git"
+    description="Modular Deep learning for shotgun proteomics" 
+    github="https://github.com/MannLabs/alphapeptdeep.git"
+    doi="https://doi.org/10.1038/s41467-022-34904-3"
+>}}
 
-{{< feature-card title="alphapeptdeep" description="Deep learning" url="/packages/directlfq/" icon="images/placeholder.svg" >}}
+{{< feature-card 
+    title="directLFQ" 
+    url="https://github.com/MannLabs/directlfq"
+    description="Label-free quantification for accurate protein abundance measurements" 
+    github="https://github.com/MannLabs/directlfq"
+    doi="https://doi.org/10.1016/j.mcpro.2023.100581"
 
+>}}
 
+{{< feature-card 
+    title="alphaquant" 
+    url="https://github.com/MannLabs/alphaquant.git"
+    description="Accurate and sensitive peptide and protein quantification with trees"
+    github="https://github.com/MannLabs/alphaquant.git"
+    doi="https://doi.org/10.1101/2025.03.06.641844"
+>}}
 {{< /card-grid >}}
 
 ---
@@ -37,9 +70,9 @@ The **alphapept** ecosystem is founded on the following principles:
 
 ## Getting Started
 
-Explore our [packages](/packages/) to find the right tools for your research, learn about our [mission](/mission/), or stay updated with the latest developments in our [news](/news/) section.
+Explore our [ecosystem](/ecosystem/) to find the right tools for your research, learn about our [mission](/mission/), or stay updated with the latest developments in our [news](/news/) section.
 
 ---
 
 ## Contribute 
-Ready to contribute? Check out our [contributors](/contributors/) page to see how you can get involved in the alphapept ecosystem.
+Ready to contribute? Check out our [contributors](/community/contributors/) page to see how you can [get involved](/community/join/) in the alphapept ecosystem.

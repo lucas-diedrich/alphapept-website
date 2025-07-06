@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.5 274.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-family: Niramit-SemiBold, Niramit;
+        font-size: 120px;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        stroke-width: 25px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke-width: 22px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(53.16 173.86)"><tspan x="0" y="0">doi</tspan></text>
+  <path class="cls-3" d="M262,165.1v47c0,27.56-22.34,49.9-49.9,49.9H62.4c-27.56,0-49.9-22.34-49.9-49.9V62.4c0-27.56,22.34-49.9,49.9-49.9h50.52"/>
+  <g>
+    <line class="cls-4" x1="199.76" y1="74.45" x2="251.66" y2="22.55"/>
+    <polygon class="cls-1" points="246.81 82.78 246.83 27.38 191.43 27.4 214.94 3.88 270.33 3.88 270.33 59.27 246.81 82.78"/>
+  </g>
+</svg>

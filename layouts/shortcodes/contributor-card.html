@@ -1,7 +1,7 @@
 <!-- Contributor Card Template -->
 <div class="contributor-card">
     <div class="contributor-image">
-        <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}">
+        <img src="{{ .Get "image" | default "/images/placeholder/person.svg"}}" alt="{{ .Get "name" }}">
     </div>
     <div class="contributor-info">
         <h3>{{ .Get "name" }}</h3>
@@ -19,8 +19,8 @@
 .contributor-card {
     /* border: 1px solid var(--border); */
     border-radius: 12px;
-    padding: 2rem;
-    /* background: var(--entry); */
+    padding: 1.5rem;
+    background: var(--entry);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     flex-direction: column;
@@ -100,6 +100,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
 </style>

@@ -12,9 +12,9 @@ We believe that transparency and accessibility are essential to scientific progr
 
 ### Scientific Rigor
 
-alphapept is dedicated to advancing computational proteomics through high-quality, peer-reviewed methods. Each tool in the ecosystem is built on per-reviewed algorithms, validated through careful benchmarking and aligned with current best practices in the field. Our goal is to empower researchers with reliable, cutting-edge solutions for the analysis of mass spectrometry data.
+alphapept is dedicated to advancing computational proteomics through high-quality, peer-reviewed methods. Each tool in the ecosystem is validated through careful benchmarking and aligned with current best practices in the field. Our goal is to empower researchers with reliable, state-of-the-art solutions for the analysis of mass spectrometry data.
 
-### Interoperability
+### Accessibility
 
 We design our tools to work seamlessly within the broader scientific software ecosystem. By building on established standards and integrating with widely used platforms—such as Python-based analysis environments—we ensure that alphapept fits naturally into modern, modular workflows. This approach fosters flexibility, reproducibility, and scalability across diverse research contexts.
 

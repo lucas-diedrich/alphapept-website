@@ -17,10 +17,6 @@ Packages in the **alphapept** ecosystem must adhere to stringent standards that 
 - A user-friendly **documentation** with tutorials and recommendations on the usage
 - A **streamlined installation**
 
-## Walkthrough
-
-Checkout our walkthrough through the **alphapept** ecosystem.
-
 
 ## Available packages
 Explore available packages, and checkout **installation instructions**, **tutorials**, and the respective **publications**
@@ -28,10 +24,129 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< card-grid columns="3">}}
 
-{{< feature-card title="alphaDIA" url="/ecosystem/packages/alphadia.md" icon="/images/placeholder.svg" alt="icon" >}}
+{{< feature-card 
+    title="alphaDIA" 
+    icon="/images/ecosystem/alphadia.png"
+    url="https://github.com/MannLabs/alphadia.git" 
+    description="An open search engine for data-independent acquisition (DIA) experiments" 
+    github="https://github.com/MannLabs/alphadia.git" 
+    docs="https://alphadia.readthedocs.io/en/latest/"
+    doi="https://doi.org/10.1101/2024.05.28.596182"
+>}}
 
-{{< feature-card title="directLFQ" url="/ecosystem/packages/alphadia.md" icon="/images/placeholder.svg" >}}
+{{< feature-card 
+    title="alphapept" 
+    icon="/images/ecosystem/alphapept-package.png"
+    url="https://github.com/MannLabs/alphapept.git"
+    description="An open search engine for data-dependent acquisition (DDA) experiments" 
+    github="https://github.com/MannLabs/alphapept.git"
+    docs="https://mannlabs.github.io/alphapept/"
+>}}
 
-{{< feature-card title="alphapeptdeep" url="/ecosystem/packages/alphapeptdeep.md" icon="/images/placeholder.svg" >}}
+
+{{< feature-card 
+    title="directLFQ" 
+    url="https://github.com/MannLabs/directlfq"
+    description="Label-free quantification for accurate protein abundance measurements" 
+    github="https://github.com/MannLabs/directlfq"
+    doi="https://doi.org/10.1016/j.mcpro.2023.100581"
+
+>}}
+
+{{< feature-card 
+    title="alphaquant" 
+    url="https://github.com/MannLabs/alphaquant.git"
+    description="Accurate and sensitive peptide and protein quantification with trees"
+    github="https://github.com/MannLabs/alphaquant.git"
+    doi="https://doi.org/10.1101/2025.03.06.641844"
+>}}
+
+{{< feature-card 
+    title="alphapeptstats" 
+    url="https://github.com/MannLabs/alphapeptstats.git"
+    description="Downstream analysis of mass-spectrometry-based proteomics data"
+    github="https://github.com/MannLabs/alphapeptstats.git"
+    docs="https://alphapeptstats.readthedocs.io/en/latest/"
+    doi="https://alphapeptstats.readthedocs.io/en/latest/"
+>}}
+
+{{< feature-card 
+    title="alphabase"
+    icon="/images/ecosystem/alphabase.svg"
+    url="https://github.com/MannLabs/alphabase.git"
+    description="Fundamental infrastructure for the handling of proteomics data"
+    github="https://github.com/MannLabs/alphabase.git"
+    docs="https://alphabase.readthedocs.io/"
+>}}
+
+{{< feature-card 
+    title="alphapeptdeep" 
+    icon="/images/ecosystem/alphapeptdeep.png"
+    url="https://github.com/MannLabs/alphapeptdeep.git"
+    description="Modular Deep learning for shotgun proteomics" 
+    github="https://github.com/MannLabs/alphapeptdeep.git"
+    docs="https://alphapeptdeep.readthedocs.io/en/latest/"
+    doi="https://doi.org/10.1038/s41467-022-34904-3"
+>}}
+
+{{< feature-card 
+    title="alpharaw" 
+    icon="/images/ecosystem/alpharaw.svg"
+    url="https://github.com/MannLabs/alpharaw.git"
+    description="Unified, vendor-agnostic access and and storage of raw MS data"
+    github="https://github.com/MannLabs/alpharaw.git"
+
+>}}
+
+{{< feature-card 
+    title="alphatims" 
+    url="https://github.com/MannLabs/alphatims.git"
+    description="Access and visualize LC-TIMS-Q-TOF data" 
+    github="https://github.com/MannLabs/alphatims.git"
+    doi="https://doi.org/10.1016/j.mcpro.2021.100149"
+    docs="https://alphatims.readthedocs.io/en/latest/index.html"
+>}}
+
+
+{{< feature-card 
+    title="alphakraken" 
+    icon="/images/ecosystem/alphakraken.svg"
+    url="https://github.com/MannLabs/alphakraken.git"
+    description="A fully automated data processing and analysis system for mass spectrometry experiments."
+    github="https://github.com/MannLabs/alphakraken.git"
+>}}
+
+{{< feature-card 
+    title="pydiaid" 
+    url="https://github.com/MannLabs/pydiaid.git"
+    description=" Automated Isolation Design for dia-PASEF methods"
+    github="https://github.com/MannLabs/pydiaid.git"
+    doi="https://doi.org/10.1016/j.mcpro.2022.100489"
+>}}
+
+{{< feature-card 
+    title="alphaviz" 
+    url="https://github.com/MannLabs/alphaviz.git"
+    description="Browser-based interactive visualization of processed mass spectrometry data from Bruker instruments"
+    github="https://github.com/MannLabs/alphaviz.git"
+    doi="https://doi.org/10.1101/2022.07.12.499676"
+>}}
+
+
+{{< feature-card 
+    title="dvp-io" 
+    url="https://github.com/lucas-diedrich/dvp-io.git"
+    description="Read and write funtionalities for deep visual proteomics data"
+    github="https://github.com/lucas-diedrich/dvp-io.git"
+    docs="https://dvp-io.readthedocs.io/en/latest/"
+>}}
+
+
 
 {{< /card-grid >}}
+
+<!-- ## Walkthrough
+
+Checkout our walkthrough through the **alphapept** ecosystem.
+ -->
+

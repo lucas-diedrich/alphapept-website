@@ -1,11 +1,29 @@
 <div class="feature-card">
     <div class="feature-icon">
-        <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" | default "" }}">
+        <img src="{{ .Get "icon" | default "/images/placeholder/package.svg" }}" alt="{{ .Get "alt" | default "icon" }}">
     </div>
     <div class="feature-content">
         <h3><a href="{{ .Get "url" }}">{{ .Get "title" }}</a></h3>
         <p>{{ .Get "description" }}</p>
-        <a href="{{ .Get "url" }}" class="feature-link">Learn More →</a>
+        <div class="social-links">
+            {{ if .Get "github" }}
+                <a href="{{.Get "github"}}" target="_blank" rel="noopener" aria-label="GitHub">
+                    <img src="/images/icons/external/github.svg" alt="GitHub icon">
+                </a>
+            {{ end }}
+            {{ if .Get "docs"}}
+                <a href="{{ .Get "docs"}}" , target="_blank" rel="noopener"
+                    aria-label="Bluesky">
+                    <img src="/images/icons/docs.svg" alt="docs" />
+                </a>
+            {{ end }}
+            {{ if .Get "doi"}}
+                <a href="{{ .Get "doi"}}" , target="_blank" rel="noopener"
+                    aria-label="Bluesky">
+                    <img src="/images/icons/doi.png" alt="doi" />
+                </a>
+            {{ end }}
+        </div>
     </div>
 </div>
 
@@ -23,7 +41,7 @@
     gap: 1rem;
     text-align: center;   
     height: 100%;
-    min-height: 300px; 
+    min-height: 280px; 
 }
 
 
@@ -80,5 +98,35 @@
 
 .feature-link:hover {
     text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-links img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.social-links img:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 </style>
