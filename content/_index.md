@@ -1,11 +1,6 @@
 ---
 title: "alphapept"
 description: "An ecosystem of cutting-edge proteomics software tools for mass spectrometry data analysis and research."
-# _build:
-#   list: false
-# cascade:
-#   _build:
-#     list: false
 ---
 
 {{< ecosystem-card >}}

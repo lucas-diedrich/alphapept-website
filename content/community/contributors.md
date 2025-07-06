@@ -18,7 +18,7 @@ _Alphabetical order_
 {{< contributor-card name="Mikhail Lebedev" image="" focus="Deep Learning + De Novo Proteomics" github="boopthesnoot" >}}
 {{< contributor-card name="Mohamed Sameh" image="" focus="Search" github="mo-sameh" >}}
 {{< contributor-card name="Julia Schessner" image="" focus="Subcellular Proteomics + PTMs" github="JuliaS92" >}}
-{{< contributor-card name="Magnus Schwör" image="" focus="Software Engineering" github="mschwoer" >}}
+{{< contributor-card name="Magnus Schwörer" image="" focus="Software Engineering" github="mschwoer" >}}
 {{< contributor-card name="Patricia Skowronek" image="" focus="PASEF + LLMs" github="PatriciaSkowronek" >}}
 {{< contributor-card name="Tung Vu" image="" focus="Quantification" github="vuductung" >}}
 {{< contributor-card name="Georg Wallmann" image="" focus="Search" github="GeorgWa" >}}
@@ -40,18 +40,9 @@ _Alphabetical order_
 {{< contributor-alumni-card name="Charlotte Gerhaher" packages="alphaDIA" github="anna-charlotte" >}}
 {{< contributor-alumni-card name="Oscar Despard" packages="alphaDIA" github="odespard" >}}
 
-<!-- {{< contributor-alumni-card name="Georg Wallmann" packages="alphaDIA, alphabase, alphapeptdeep" github="GeorgWa" >}} -->
-
 {{</card-grid>}}
 
 
 ## Community Contributors
 
-
-
 <!-- ### Industry Partners -->
-
-<!-- ## How to Contribute
-
-### For Researchers
-- **Use our tools** in your research and provide feedback, especially, **report bugs** and **suggest new features**. We are always looking forward to hearing about **your workflows** and success stories
