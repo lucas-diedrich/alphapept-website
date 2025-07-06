@@ -1,14 +1,15 @@
-# alphapept Website
-
-**This is a work-in-progress, the preliminary name is alphapept (_pronounced: alphapro_)**
+# alphapept website
 
 This repository contains the source code for the alphapept proteomics software ecosystem website, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
-## 🌐 Live Site
+**This is a work-in-progress, the preliminary name is alphapept**
+
+
+## Live Site
 
 _To be announced_
 
-## 📁 Site Structure
+## Site Structure
 
 ```
 content/
@@ -29,7 +30,7 @@ content/
     └── *.md              # Individual news posts
 ```
 
-## 🛠️ Local Development
+## Local Development
 
 ### Prerequisites
 
@@ -63,7 +64,7 @@ content/
 - **Layouts**: Custom layouts are in `layouts/` directory. Specifically, you can generate templates for specific structures (e.g. the Package/Contributor Cards and grids in `/layouts/shortcodes` with templated HTML+CSS)
 - **Static files**: Images and other assets go in `static/` directory
 
-## 📝 Adding Content
+## Adding Content
 
 ### New Package Documentation
 
@@ -80,6 +81,7 @@ title: "New Package"
 description: "Description of the new package"
 date: 2024-01-15
 ---
+```
 
 Ignore subsites (e.g. if you only want to be able to link to a specific site)
 
@@ -93,8 +95,6 @@ cascade:
     list: false
 ---
 ```
-
-# New Package
 
 Your content here...
 ```
@@ -119,7 +119,7 @@ tags: ["announcement", "release"]
 Your news content here...
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Shortcodes
 
@@ -137,7 +137,7 @@ Key configuration options in `hugo.toml`:
 - **PaperMod parameters**: Theme-specific settings
 - **Social links**: GitHub, Twitter, etc.
 
-## 🚀 Deployment
+## Deployment
 
 ### GitHub Pages (Automatic)
 
@@ -154,7 +154,7 @@ hugo --minify
 The generated site will be in the `public/` directory.
 
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to improve the website! Please:
 
@@ -180,14 +180,14 @@ We welcome contributions to improve the website! Please:
 - Ensure responsive design
 - Maintain accessibility standards
 
-## 📄 License
+## License
 
 This website is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## 🆘 Support
+## Support
 - **Issues**: [GitHub Issues](https://github.com/MannLabs/alphaX-website/issues)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Hugo](https://gohugo.io/) - Static site generator
 - [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - Hugo theme
