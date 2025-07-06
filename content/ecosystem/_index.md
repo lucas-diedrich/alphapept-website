@@ -41,6 +41,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
     description="An open search engine for data-dependent acquisition (DDA) experiments" 
     github="https://github.com/MannLabs/alphapept.git"
     docs="https://mannlabs.github.io/alphapept/"
+    doi="https://doi.org/10.1038/s41467-024-46485-4"
 >}}
 
 
