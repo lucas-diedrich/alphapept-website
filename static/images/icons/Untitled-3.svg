@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 283.46">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        fill: #231f20;
+        font-family: Niramit-SemiBold, Niramit;
+        font-size: 71.82px;
+        font-weight: 600;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        stroke-width: 10.96px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 10.86px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="283.46" height="283.46"/>
+  <g>
+    <line class="cls-3" x1="74.69" y1="107.04" x2="204.09" y2="107.04"/>
+    <line class="cls-3" x1="74.69" y1="133.17" x2="204.09" y2="133.17"/>
+    <line class="cls-3" x1="74.69" y1="161.75" x2="204.09" y2="161.75"/>
+    <g>
+      <path class="cls-2" d="M233.86,84.86v176.72c0,3.9-3.27,7.07-7.31,7.07H56.91c-4.04,0-7.31-3.16-7.31-7.07V21.24c0-3.9,3.27-7.07,7.31-7.07h103.83c4.04,0,7.31,3.16,7.31,7.07v49.49c0,3.9,3.27,7.07,7.31,7.07h51.19c4.04,0,7.31,3.16,7.31,7.07Z"/>
+      <line class="cls-2" x1="166.37" y1="16.72" x2="231.26" y2="79.44"/>
+    </g>
+    <g class="cls-4">
+      <text class="cls-5" transform="translate(60.57 233.31) scale(1.03 1)"><tspan x="0" y="0">d</tspan><tspan class="cls-6" x="41.87" y="0">oc</tspan><tspan x="116.49" y="0">s</tspan></text>
+    </g>
+  </g>
+</svg>

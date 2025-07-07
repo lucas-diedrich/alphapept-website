@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.6 46">
-  <path d="M0,0v46h32.6V12.59l-.25-.31L21.48.28l-.28-.28H0ZM1.81,2h18.11v12h10.87v30H1.81V2ZM21.73,3.44l7.75,8.56h-7.75V3.44ZM7.24,20v2h18.11v-2H7.24ZM7.24,26v2h14.49v-2H7.24ZM7.24,32v2h18.11v-2H7.24Z"/>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.96 265.68">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+        font-family: Niramit-SemiBold, Niramit;
+        font-size: 71.82px;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        stroke-width: 11.11px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+        stroke: #231f20;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke-width: 11.21px;
+      }
+    </style>
+  </defs>
+  <line class="cls-4" x1="31.84" y1="98.47" x2="167.22" y2="98.47"/>
+  <line class="cls-4" x1="31.84" y1="124.6" x2="167.22" y2="124.6"/>
+  <line class="cls-4" x1="31.84" y1="153.18" x2="167.22" y2="153.18"/>
+  <g>
+    <path class="cls-5" d="M198.36,76.29v176.72c0,3.9-3.42,7.07-7.65,7.07H13.25c-4.22,0-7.65-3.16-7.65-7.07V12.67c0-3.9,3.42-7.07,7.65-7.07h108.62c4.22,0,7.65,3.16,7.65,7.07v49.49c0,3.9,3.42,7.07,7.65,7.07h53.55c4.22,0,7.65,3.16,7.65,7.07Z"/>
+    <line class="cls-5" x1="127.75" y1="8.15" x2="195.65" y2="70.87"/>
+  </g>
+  <g class="cls-1">
+    <text class="cls-2" transform="translate(17.08 224.74) scale(1.08 1)"><tspan x="0" y="0">d</tspan><tspan class="cls-3" x="41.87" y="0">oc</tspan><tspan x="116.49" y="0">s</tspan></text>
+  </g>
 </svg>
