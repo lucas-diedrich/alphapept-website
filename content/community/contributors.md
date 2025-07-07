@@ -35,11 +35,13 @@ _Alphabetical order_
 {{< contributor-alumni-card name="Constantin Ammar" packages="directLFQ, alphaquant" github="ammarcsj" >}}
 {{< contributor-alumni-card name="Isabell Bludau" packages="alphamap" github="ibludau" >}}
 {{< contributor-alumni-card name="Oscar Despard" packages="alphaDIA" github="odespard" >}}
-{{< contributor-alumni-card name="Charlotte Gerhaher" packages="alphaDIA" github="anna-charlotte" >}}
+{{< contributor-alumni-card name="Elena Krismer" packages="alphapeptstats" github="elena-krismer">}}
 {{< contributor-alumni-card name="Maximilian Strauss" packages="alphapept" github="straussmaximilian" >}}
-{{< contributor-alumni-card name="Eugenia Voytik" packages="alphaviz" github="EugeniaVoytik" >}}
+{{< contributor-alumni-card name="Alberto Santos" packages="Clinical Knowledge Graph" github="albsantosdel" >}}
+{{< contributor-alumni-card name="Eugenia Voytik" packages="alphamap, alphaviz" github="EugeniaVoytik" >}}
 {{< contributor-alumni-card name="Sander Willems" packages="alphatims" github="swillems" >}}
 {{< contributor-alumni-card name="Wen-Feng Zeng" packages="alphapeptdeep, alphabase, alphaDIA" github="jalew188" >}}
+{{< contributor-alumni-card name="Xie-Xuan Zhou" packages="alphapeptdeep" github="zhouxiexuan">}}
 
 
 {{</card-grid>}}
