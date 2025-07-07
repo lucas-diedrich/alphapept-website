@@ -29,6 +29,7 @@ The **alphapept ecosystem** is an integrated ecoysystem of state-of-the-art scie
     url="https://github.com/MannLabs/alphapeptdeep.git"
     description="Modular Deep learning for shotgun proteomics" 
     github="https://github.com/MannLabs/alphapeptdeep.git"
+    docs="https://alphapeptdeep.readthedocs.io/en/latest/"
     doi="https://doi.org/10.1038/s41467-022-34904-3"
 >}}
 

@@ -117,6 +117,17 @@ Explore available packages, and checkout **installation instructions**, **tutori
     github="https://github.com/MannLabs/alphakraken.git"
 >}}
 
+
+{{< feature-card 
+    title="dvp-io" 
+    url="https://github.com/lucas-diedrich/dvp-io.git"
+    description="Read and write funtionalities for deep visual proteomics data"
+    github="https://github.com/lucas-diedrich/dvp-io.git"
+    docs="https://dvp-io.readthedocs.io/en/latest/"
+>}}
+
+
+
 {{< feature-card 
     title="pydiaid" 
     url="https://github.com/MannLabs/pydiaid.git"
@@ -133,13 +144,13 @@ Explore available packages, and checkout **installation instructions**, **tutori
     doi="https://doi.org/10.1101/2022.07.12.499676"
 >}}
 
-
 {{< feature-card 
-    title="dvp-io" 
-    url="https://github.com/lucas-diedrich/dvp-io.git"
-    description="Read and write funtionalities for deep visual proteomics data"
-    github="https://github.com/lucas-diedrich/dvp-io.git"
-    docs="https://dvp-io.readthedocs.io/en/latest/"
+    title="alphamap" 
+    url="https://github.com/MannLabs/alphamap.git"
+    description="Browser-based interactive visualization of processed mass spectrometry data from Bruker instruments"
+    github="https://github.com/MannLabs/alphamap.git"
+    docs="https://mannlabs.github.io/alphamap/"
+    doi="https://doi.org/10.1093/bioinformatics/btab674"
 >}}
 
 
