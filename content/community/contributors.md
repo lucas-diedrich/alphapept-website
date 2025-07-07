@@ -31,14 +31,16 @@ _Alphabetical order_
 
 ## Alumni
 
-{{<card-grid columns="4">}}
+{{<card-grid columns="3">}}
 {{< contributor-alumni-card name="Constantin Ammar" packages="directLFQ, alphaquant" github="ammarcsj" >}}
-{{< contributor-alumni-card name="Wen-Feng Zeng" packages="alphapeptdeep, alphabase, alphaDIA" github="jalew188" >}}
-{{< contributor-alumni-card name="Maximilian Strauss" packages="alphapept" github="straussmaximilian" >}}
 {{< contributor-alumni-card name="Isabell Bludau" packages="alphamap" github="ibludau" >}}
-{{< contributor-alumni-card name="Eugenia Voytik" packages="alphaviz" github="EugeniaVoytik" >}}
-{{< contributor-alumni-card name="Charlotte Gerhaher" packages="alphaDIA" github="anna-charlotte" >}}
 {{< contributor-alumni-card name="Oscar Despard" packages="alphaDIA" github="odespard" >}}
+{{< contributor-alumni-card name="Charlotte Gerhaher" packages="alphaDIA" github="anna-charlotte" >}}
+{{< contributor-alumni-card name="Maximilian Strauss" packages="alphapept" github="straussmaximilian" >}}
+{{< contributor-alumni-card name="Eugenia Voytik" packages="alphaviz" github="EugeniaVoytik" >}}
+{{< contributor-alumni-card name="Sander Willems" packages="alphatims" github="swillems" >}}
+{{< contributor-alumni-card name="Wen-Feng Zeng" packages="alphapeptdeep, alphabase, alphaDIA" github="jalew188" >}}
+
 
 {{</card-grid>}}
 
