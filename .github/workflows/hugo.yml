@@ -1,15 +1,18 @@
-name: Deploy Hugo PaperMod Demo to Pages
+name: Deploy Pages
 
 on:
+  # Push to main
   push:
-    paths-ignore:
-      - "images/**"
-      - "LICENSE"
-      - "README.md"
     branches:
       - main
+    # Ignore pushes to non-website related files
+    paths-ignore:
+      - "LICENSE"
+      - "README.md"
+      - ".gitignore"
+      - ".vscode"
+  # Manual 
   workflow_dispatch:
-    # manual run
     inputs:
       hugoVersion:
         description: "Hugo Version"
@@ -46,7 +49,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: exampleSite
+          ref: main
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
