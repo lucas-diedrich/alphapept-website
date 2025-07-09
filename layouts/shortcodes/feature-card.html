@@ -1,6 +1,6 @@
 <div class="feature-card">
     <div class="feature-icon">
-        <img src="{{ .Get "icon" | default "/images/placeholder/package.svg" }}" alt="{{ .Get "alt" | default "icon" }}">
+        <img src="{{ .Get "icon" | default "./images/placeholder/package.svg" }}" alt="{{ .Get "alt" | default "icon" }}">
     </div>
     <div class="feature-content">
         <h3><a href="{{ .Get "url" }}">{{ .Get "title" }}</a></h3>
@@ -8,19 +8,19 @@
         <div class="social-links">
             {{ if .Get "github" }}
                 <a href="{{.Get "github"}}" target="_blank" rel="noopener" aria-label="GitHub">
-                    <img src="/images/icons/external/github.svg" alt="GitHub icon">
+                    <img src="./images/icons/external/github.svg" alt="GitHub icon">
                 </a>
             {{ end }}
             {{ if .Get "docs"}}
                 <a href="{{ .Get "docs"}}" , target="_blank" rel="noopener"
                     aria-label="Bluesky">
-                    <img src="/images/icons/docs.png" alt="docs" />
+                    <img src="./images/icons/docs.png" alt="docs" />
                 </a>
             {{ end }}
             {{ if .Get "doi"}}
                 <a href="{{ .Get "doi"}}" , target="_blank" rel="noopener"
                     aria-label="Bluesky">
-                    <img src="/images/icons/doi.png" alt="doi" />
+                    <img src="./images/icons/doi.png" alt="doi" />
                 </a>
             {{ end }}
         </div>

@@ -4,7 +4,7 @@ description: "Core development team and community members"
 ---
 
 
-{{< contributor-card name="Matthias Mann" image="/images/contributors/matthias-mann.png" github="MannLabs" >}}
+{{< contributor-card name="Matthias Mann" image="./images/contributors/matthias-mann.png" github="MannLabs" >}}
 
 
 ## Core Development Team

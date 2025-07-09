@@ -26,7 +26,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alphaDIA" 
-    icon="/images/ecosystem/alphadia.png"
+    icon="./images/ecosystem/alphadia.png"
     url="https://github.com/MannLabs/alphadia.git" 
     description="An open search engine for data-independent acquisition (DIA) experiments" 
     github="https://github.com/MannLabs/alphadia.git" 
@@ -36,7 +36,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alphapept" 
-    icon="/images/ecosystem/alphapept-package.png"
+    icon="./images/ecosystem/alphapept-package.png"
     url="https://github.com/MannLabs/alphapept.git"
     description="An open search engine for data-dependent acquisition (DDA) experiments" 
     github="https://github.com/MannLabs/alphapept.git"
@@ -73,7 +73,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alphabase"
-    icon="/images/ecosystem/alphabase.svg"
+    icon="./images/ecosystem/alphabase.svg"
     url="https://github.com/MannLabs/alphabase.git"
     description="Fundamental infrastructure for the handling of proteomics data"
     github="https://github.com/MannLabs/alphabase.git"
@@ -82,7 +82,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alphapeptdeep" 
-    icon="/images/ecosystem/alphapeptdeep.png"
+    icon="./images/ecosystem/alphapeptdeep.png"
     url="https://github.com/MannLabs/alphapeptdeep.git"
     description="Modular Deep learning for shotgun proteomics" 
     github="https://github.com/MannLabs/alphapeptdeep.git"
@@ -92,7 +92,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alpharaw" 
-    icon="/images/ecosystem/alpharaw.svg"
+    icon="./images/ecosystem/alpharaw.svg"
     url="https://github.com/MannLabs/alpharaw.git"
     description="Unified, vendor-agnostic access and and storage of raw MS data"
     github="https://github.com/MannLabs/alpharaw.git"
@@ -111,7 +111,7 @@ Explore available packages, and checkout **installation instructions**, **tutori
 
 {{< feature-card 
     title="alphakraken" 
-    icon="/images/ecosystem/alphakraken.svg"
+    icon="./images/ecosystem/alphakraken.svg"
     url="https://github.com/MannLabs/alphakraken.git"
     description="A fully automated data processing and analysis system for mass spectrometry experiments."
     github="https://github.com/MannLabs/alphakraken.git"
