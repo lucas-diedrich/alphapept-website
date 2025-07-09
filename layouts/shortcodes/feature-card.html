@@ -8,19 +8,19 @@
         <div class="social-links">
             {{ if .Get "github" }}
                 <a href="{{.Get "github"}}" target="_blank" rel="noopener" aria-label="GitHub">
-                    <img src="images/icons/external/github.svg" alt="GitHub icon">
+                    <img src="{{"images/icons/external/github.svg" | absURL}}" alt="GitHub icon">
                 </a>
             {{ end }}
             {{ if .Get "docs"}}
                 <a href="{{ .Get "docs"}}" , target="_blank" rel="noopener"
-                    aria-label="Bluesky">
-                    <img src="images/icons/docs.png" alt="docs" />
+                    aria-label="docs">
+                    <img src="{{"images/icons/docs.png" | absURL}}" alt="docs" />
                 </a>
             {{ end }}
             {{ if .Get "doi"}}
                 <a href="{{ .Get "doi"}}" , target="_blank" rel="noopener"
                     aria-label="Bluesky">
-                    <img src="images/icons/doi.png" alt="doi" />
+                    <img src="{{"images/icons/doi.png" | absURL }}" alt="doi" />
                 </a>
             {{ end }}
         </div>
