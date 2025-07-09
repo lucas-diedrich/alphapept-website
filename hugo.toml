@@ -1,4 +1,5 @@
-baseURL = 'https://alpha-pro.github.io'
+relativeURLs = true
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'alphapept'
 theme = 'PaperMod'
