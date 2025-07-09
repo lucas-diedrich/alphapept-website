@@ -15,7 +15,7 @@ The **alphapept ecosystem** is an integrated ecoysystem of state-of-the-art scie
 
 {{< feature-card 
     title="alphaDIA" 
-    icon="./images/ecosystem/alphadia.png"
+    icon="images/ecosystem/alphadia.png"
     url="https://github.com/MannLabs/alphadia.git" 
     description="Search engine for data-independent acquisition (DIA) experiments" 
     github="https://github.com/MannLabs/alphadia.git" 
@@ -25,7 +25,7 @@ The **alphapept ecosystem** is an integrated ecoysystem of state-of-the-art scie
 
 {{< feature-card 
     title="alphapeptdeep" 
-    icon="./images/ecosystem/alphapeptdeep.png"
+    icon="images/ecosystem/alphapeptdeep.png"
     url="https://github.com/MannLabs/alphapeptdeep.git"
     description="Modular Deep learning for shotgun proteomics" 
     github="https://github.com/MannLabs/alphapeptdeep.git"
